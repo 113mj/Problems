@@ -1,14 +1,11 @@
 import java.util.Scanner;
 
-
-
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
-        int answer = (a+b)*(a-b);
+        long a = scanner.nextLong();
+        long b = scanner.nextLong();
+        long answer = (a + b) * (a - b);
         System.out.println(answer);
     }
 }
-
