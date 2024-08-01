@@ -9,7 +9,7 @@ public class Main {
         
         for (int i = 0; i < 3; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
-            int x = 0; // Initialize x inside the loop to reset for each line
+            int x = 0;
 
             for (int j = 0; j < 4; j++) {
                 if (Integer.parseInt(st.nextToken()) == 1) {
