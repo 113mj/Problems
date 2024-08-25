@@ -12,7 +12,8 @@ public class Main {
         String[] firstLine = br.readLine().split(" ");
         int start_x = Integer.parseInt(firstLine[0]);
         int start_y = Integer.parseInt(firstLine[1]);
-        int x = start_x, y = start_y;
+        int x = start_x;
+        int y = start_y;
 
         for (int i = 0; i < N - 1; i++) {
             String[] nextLine = br.readLine().split(" ");
